@@ -37,7 +37,7 @@ const header = document.querySelector('.header');
 
 btnScrollTo.addEventListener('click', function (e) {
   // scrolling
-  console.log(document.documentElement.clientHeight);
+  // console.log(document.documentElement.clientHeight);
   section1.scrollIntoView({ behavior: 'smooth' });
 });
 
